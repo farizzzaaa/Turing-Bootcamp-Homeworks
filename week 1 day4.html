@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>week1 day4</title>
+  <link rel="stylesheet" href="week1 day4.css">
+    <link rel="stylesheet" href="styles week1 day4.css">
+</head>
+    <body>
+      <h1><strong>HTML</strong> </h1>
+      <p><b>HTML</b> (от англ. <i>HyperText Markup Language</i> — «язык гипертекстовой разметки») —
+          стандартизированный язык разметки документов для просмотра веб-страниц во Всемирной паутине.
+          Код HTML интерпретируется браузерами;полученная в результате интерпретации страница отображается
+          на экране монитора компьютера и мобильного устройства.</p>
+        <p>Язык HTML до 5-й версии определялся как приложение SGML (стандартного обобщённого языка разметки по стандарту ISO 8879).
+          Спецификации HTML5 формулируются в терминах DOM (объектной модели документа).</p>
+        <p>Строгим вариантом HTML является XHTML, он наследует синтаксис XML и является приложением языка XML
+          в области разметки гипертекста.</p>
+        <p>HTML-страницы, как правило, открываются браузерами обмениваясь с сервером информацией по протоколу  HTTP или HTTPS,
+          в виде простого текста или с использованием шрифования.</p>
+        <hr>
+      <h1><strong>Общее представление</strong> </h1>
+        <p>Изначально язык HTML был задуман и создан как средство структурирования и форматирования документов без их привязки
+          к средствам воспроизведения (отображения). В идеале, текст с разметкой HTML должен был без стилистических и структурных
+          искажений воспроизводиться на оборудовании с различной технической оснащённостью (цветной экран современного компьютера,
+          монохромный экран органайзера, ограниченный по размерам экран мобильного телефона или устройства и программы голосового
+          воспроизведения текстов). Однако современное применение HTML очень далеко от его изначальной задачи. Например, тег
+
+          предназначен для создания в документах таблиц, но иногда используется и для оформления размещения элементов на странице.
+          С течением времени основная идея платформонезависимости языка HTML была принесена в жертву современным потребностям в
+          мультимедийном и графическом оформлении.</p>
+
+      <div id="block1">Текст<div id="block2">Текст2</div></div>
+
+    <hr/>
+
+    <form>
+        <fieldset>
+            <legend>Checkbox</legend>
+            <input type="checkbox">
+            <input type="checkbox" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>File</legend>
+            <input type="file">
+            <input type="file" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>Image</legend>
+            <input type="image">
+            <input type="image" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>Password</legend>
+            <input type="password">
+            <input type="password" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>Text</legend>
+            <input type="text">
+            <input type="text" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>E-mail</legend>
+            <input type="email">
+            <input type="email" disabled>
+        </fieldset>
+
+        <fieldset>
+            <legend>Date</legend>
+            <input type="date">
+            <input type="email" disabled>
+        </fieldset>
+
+    </form>
+
+    <hr/>
+
+    <form>
+        <button>Кнопка</button>
+        <input type="search">
+    </form>
+
+    <hr/>
+
+    <form>
+        <p><input name="number" type="radio" value="odin">1</p>
+        <p><input name="number" type="radio" value="dva">2</p>
+        <p><input name="number" type="radio" value="tri">3</p>
+    </form>
+
+    <hr/>
+
+      <p><textarea rows="3" maxlength="100" name="text" disabled></textarea></p>
+    <hr/>
+      <p><textarea rows="3" maxlength="100" name="text" ></textarea></p>
+    <hr/>
+
+    <select>
+        <option value="golova">Голова</option>
+        <option value="ruka">Рука</option>
+        <option value="noga">Нога</option>
+    </select>
+
+    <select multiple>
+        <option value="golova">Голова</option>
+        <option value="ruka">Рука</option>
+        <option value="noga">Нога</option>
+    </select>
+
+    <hr/>
+
+      <input id="username"><label for="username">Имя</label>
+      <label><input type="text"> Текст</label>
+
+    <hr/>
+
+    <form>
+        <fieldset>
+            <legend>Данные</legend>
+            <label> E-mail
+                <input type="email"/>
+            </label>
+            <label> Пароль
+                <input type="password"/>
+            </label>
+            <input type="submit"/>
+        </fieldset>
+    </form>
+
+    <hr/>
+      <div>Нажмите кнопку Tab для перехода между элементами</div>
+      <form>
+          <fieldset>
+              <legend>Данные</legend>
+              <label> E-mail
+                  <input tabindex="" type="email"/>
+              </label>
+              <label> Пароль
+                  <input tabindex="" type="password"/>
+              </label>
+              <input tabindex="" type="submit"/>
+          </fieldset>
+      </form>
+
+    </body>
+</html>
