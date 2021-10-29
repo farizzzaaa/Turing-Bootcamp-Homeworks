@@ -1,0 +1,229 @@
+.container {
+    display: flex;
+}
+.container__bac {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    background-color: blue;
+    border: 5px solid red;
+}
+
+.container__bac1 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+    border: 10px double black;
+}
+
+table {
+    width: 500px;
+    height: 400px;
+    border-spacing: 5px;
+
+}
+
+/*td{*/
+/*    background:blue;*/
+/*    color: white;*/
+/*    border-radius: 10px ;*/
+/*    border: 5px solid black;*/
+
+/*}*/
+/*th {*/
+/*    background: orange;*/
+/*    color: black;*/
+/*    border-radius: 10px;*/
+/*    border: 5px solid black;*/
+/*}*/
+
+/*td:first-child {*/
+/*    border-top-left-radius: 2px;*/
+/*    border-top-right-radius: 2px;*/
+/*}*/
+
+/*th:last-child {*/
+/*    border-top-right-radius: 2px;*/
+/*}*/
+/*tr:last-child td:first-child {*/
+/*    border-radius: 0 0 0 10px;*/
+/*}*/
+/*tr:last-child td:last-child {*/
+/*    border-radius: 0 0 10px 0;*/
+/*}*/
+
+
+/*td,th:first-child {*/
+/*    border-top-left-radius: 2px;*/
+/*    border-top-right-radius: 2px;*/
+/*}*/
+
+/*td,th:last-child {*/
+/*    border-top-left-radius: 2px;*/
+/*    border-top-right-radius: 2px;*/
+/*}*/
+
+ tr{
+    border-radius: 1px;
+}
+.formula {
+    font-size: 1.6em;
+    font-style: italic;
+}
+.formula sup, .formula sub {
+    font-style: normal;
+    font-size: 0.6em;
+    color: red;
+}
+.formula sub {
+    color: blue;
+}
+
+.div1 {
+    width: 500px;
+    height: 50px;
+    background-color: brown;
+    display: table-cell;
+    vertical-align: middle;
+}
+.span1 {
+    color: red;
+    font-style: italic;
+    text-decoration: underline;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+.span2 {
+    color: chartreuse;
+    font-style: italic;
+    text-decoration: underline;
+    margin-right: 15px;
+}
+.span3 {
+    color: aqua;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.diagram {
+    background: white;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font: 40px/100px Times, serif;
+    border: 25px solid blue;
+    border-right: 25px solid aqua;
+    border-radius: 100px;
+}
+.span4 {
+    font-size: 0.5em;
+}
+
+.column1 {
+    text-align: right;
+    font-family: Cambria;
+}
+
+.table1 {
+    line-height: 1em;
+    width: 400px ;
+    height: 500px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    background-color: lightgrey;
+}
+thead, tbody{
+    text-align: right;
+}
+.button-submit{
+    background-color: blue;
+    color: white;
+}
+
+.dropbtn {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: blue;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.japan {
+    width: 300px;
+    height: 200px;
+    border: 2px solid darkgrey;
+    background: radial-gradient(circle, red 58px, white 60px);
+}
+.russia {
+    width: 300px;
+    height: 200px;
+    border: 2px solid darkgrey;
+    background: linear-gradient( to bottom, white 33% , blue 33% 66% ,red 66%) ;
+}
+.container__shadow {
+    text-align: ;
+
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    box-shadow: inset 2px 2px 5px 5px  gray ;
+    border-radius: 5px;
+}
+
+
+ul {
+    width: 500px;
+    border-radius: 50px;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    margin-top:25px;
+    background:lightgreen ;
+    height: 50px;
+    background: linear-gradient( white, lightgreen);
+}
+a {
+    text-decoration: none;
+    background:lightgreen;
+    color: black;
+    padding:0px 15px;
+    font-family: arial;
+    line-height:50px;
+    display: block;
+    border-right: 1px solid lightgreen;
+    background: linear-gradient( white, lightgreen);
+    border-radius: 50px;
+}
+a:hover {
+    background:green;
+}
+li {
+    float:left;
+}
