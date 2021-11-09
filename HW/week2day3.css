@@ -1,23 +1,207 @@
-.box {
+.container {
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgray;
+}
+.square {
     width: 100px;
     height: 100px;
-    display: flex;
     background-color: blue;
     align-items: center;
     justify-content: center;
-    padding: 0;
-    margin: 0;
+}
+
+
+.container-2 {
+    width: 600px;
+    height: 400px;
+    display: block;
+    flex-direction: column;
+    background-color:lightgray;
+    justify-content: center;
 
 }
 
 
-/*.container {*/
-/*    display: flex;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
-/*}*/
-/*.item {*/
-/*    width: 100px;*/
-/*    height: 100px;*/
-/*    background-color: blue;*/
-/*}*/
+.block-1 {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 1px solid black;
+}
+.block-2 {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.block-3 {
+    width: 50%;
+    height: 100px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.container-3 {
+    width: 600px;
+    height: 400px;
+    display: block;
+    flex-direction: column;
+    background-color:lightgray;
+    justify-content: center;
+
+}
+.block-11,.block-33 {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border: 1px solid black;
+}
+.block-22 {
+    width: 50px;
+    height: 100px;
+    background-color: gray;
+    border: 1px solid black;
+    flex-shrink: 1;
+}
+
+.gallery {
+    width: 500px;
+    height: 500px;
+    background-color: lightgray;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.box {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background: no-repeat center/ cover url(https://i.pinimg.com/236x/05/39/52/053952638014c066fd0853afb86fcf42.jpg);
+    outline: 1px gray solid;
+    text-align: center;
+    color: lightgray;
+}
+
+
+.modal {
+    width: 200px;
+    height: 100px;
+    background-color: lightgray;
+}
+
+.modal__content {
+    width: 180px;
+    height: 80px;
+    background-color: darkgray;
+}
+header {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.modalDialog {
+    position: fixed;
+    font-family: Arial;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: darkgray;
+    transition: opacity 400ms ease-in;
+    display: none;
+    pointer-events: none;
+    text-align: center;
+}
+
+.modalDialog:target {
+    display: block;
+    pointer-events: auto;
+}
+
+.modalDialog > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 5px 20px 13px 20px;
+    background: white;
+}
+
+.nav {
+    margin: 20px 0;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    margin: 0 5px 10px 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    *display:inline;
+}
+.nav a  {
+    padding: 3px 12px;
+    text-decoration: none;
+    line-height: 100%;
+    color: darkgray;
+}
+.nav {
+    margin: 20px 0;
+}
+.nav ul {
+    margin: 0;
+    padding: 0;
+}
+.nav li {
+    margin: 0 5px 10px 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    *display:inline; /* ie7 */
+}
+.nav a {
+    padding: 3px 12px;
+    text-decoration: none;
+    color: gray;
+    line-height: 100%;
+}
+.nav a:hover {
+    color: black;
+}
+.nav .current a {
+    background: blue;
+    color: white;
+    border-radius: 3px;
+}
+
+.layout {
+    width: 500px;
+    height: 500px;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.A, .B, .C, .D, .E, .F {
+    width: 150px;
+    height: 200px;
+    background-color: darkgray;
+    outline: 1px solid gray;
+}
+.item.A {
+    flex-grow: 1;
+
+}
+
+
